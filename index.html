@@ -1,36 +1,45 @@
 <!DOCTYPE html>
-<head>
-  <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
-  <link href='http://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700|Dancing+Script' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" type="text/css" href="./css/app.css">
-</head>
-<body>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="header">
-          <h1>CAAS</h1>
-          <h3>Charting As A Service</h3>
-        </div>
-        <div class="row">
-          <div class="col-md-6 col-md-offset-3">
-            <div class="input-group">
-              <input type="text" id="text_field" class="form-control" placeholder="Enter a url to fetch json">
-              <span class="input-group-btn">
-                <button class="btn btn-danger" type="button" id="draw">Draw!</button>
-              </span>
-            </div>
-            <p> And you will see some bullshit down below </p>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>CAAS</title>
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/nvd3/1.1.15-beta/nv.d3.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700|Dancing+Script' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="./css/app.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="header">
+            <h1>CAAS</h1>
+            <h3>Charting As A Service</h3>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12">
-            <div id="container"></div>
+          <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+              <div class="input-group">
+                <input type="text" id="text_field" class="form-control" placeholder="Enter a json/array or a url to fetch it">
+                <span class="input-group-btn">
+                  <button class="btn btn-danger" type="button" id="draw">Draw!</button>
+                </span>
+              </div>
+              <p> And you will see some bullshit down below </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <div id="container">
+                <svg></svg>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
-  <script src="./js/app.js"></script>
-</body>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="http://d3js.org/d3.v3.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/nvd3/1.1.15-beta/nv.d3.min.js"></script>
+    <script src="./js/app.js"></script>
+  </body>
+</html>

@@ -25,9 +25,12 @@ input {
   font-family: 'Dancing Script', cursive;
 }
 #container {
-  margin-top: 30px;
   min-height: 600px;
+  margin-top: 30px;
   /*box-shadow: 0 0 100px -30px #e74c3c inset;*/
 
   background: url("../images/square-bg.png") repeat center center #ffffff;
+}
+#container svg {
+  height: 600px;
 }
