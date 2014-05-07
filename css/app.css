@@ -1,0 +1,33 @@
+body {
+  font-family: 'Josefin Sans', sans-serif;
+}
+.btn,
+button,
+div[type="button"] {
+  outline: none !important;
+  border-radius: 0 !important;
+}
+.btn:active,
+button:active,
+div[type="button"]:active {
+  opacity: 0.75;
+}
+input {
+  border-radius: 0 !important;
+}
+.header {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.header h1,
+.header h3 {
+  font-family: 'Dancing Script', cursive;
+}
+#container {
+  margin-top: 30px;
+  min-height: 600px;
+  /*box-shadow: 0 0 100px -30px #e74c3c inset;*/
+
+  background: url("../images/square-bg.png") repeat center center #ffffff;
+}
