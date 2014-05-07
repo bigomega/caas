@@ -57,7 +57,8 @@ $(function(){
         {
           values: cos,
           key: 'Cosine Wave',
-          color: '#2ca02c'
+          color: '#2ca02c',
+          area: true
         },
         {
           values: sin2,
