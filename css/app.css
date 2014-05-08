@@ -1,5 +1,12 @@
-body {
+body,
+h2,
+h4,
+h5 {
   font-family: 'Josefin Sans', sans-serif;
+}
+h1,
+h3 {
+  font-family: 'Dancing Script', cursive;
 }
 .btn,
 button,
@@ -20,14 +27,9 @@ input {
   margin-bottom: 20px;
   text-align: center;
 }
-h1,
-h3 {
-  font-family: 'Dancing Script', cursive;
-}
-h2,
-h4,
-h5 {
-  font-family: 'Josefin Sans', sans-serif;
+.header h1 {
+  font-size: 90px;
+  letter-spacing: 5px;
 }
 input {
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
