@@ -6,11 +6,17 @@ Draw all kind of charts with a json or an endpoint that returns a json
 
 * + JSON in mutiple formats
  * + Index and value
-                { '0':12, '2':23, '3':34, ... }
+        ```javascript
+            { '0':12, '2':23, '3':34, ... }
+        ```
  * + Unquoted json
+        ```javascript
                 { 0:34, 1q: 53, 24: 97, ... }
+        ```
  * + X and Y
+        ```javascript
                 { '0': {x:1, y:1}, 'doesnt_matter': {x:2, y:3}, 'q_34': {x:3, ... }}
+        ```
  * + X and Y and Z
 
 { '0': {x:1, y:1, z:2}, 'doesnt_matter': {x:2, y:3, z:8}, 'q_34': {x:3, ... }}
