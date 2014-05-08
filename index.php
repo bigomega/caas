@@ -4,7 +4,7 @@
     <meta charset="utf-8"/>
     <title>CAAS</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="shortcut icon" href="./favicon.ico">
     <!-- Search headers -->
     <meta name="author" content="bigOmega">
     <meta name="description" content="CaaS - Charting as a Service">
@@ -14,7 +14,7 @@
     <meta property="og:description" content="Charting as a Service">
     <meta property="og:type" content="website">
     <meta property="og:url" content="http://bigomega.github.io/caas/">
-    <meta property="og:image" content="/images/example.jpg">
+    <meta property="og:image" content="http://bigomega.github.io/caas/images/example.jpg">
     <meta property="og:site_name" content="Caas">
     <meta property="fb:admins" content="bharathinssn">
     <!-- Twitter cards -->
@@ -22,11 +22,11 @@
     <meta name="twitter:url" content="http://bigomega.github.io/caas/">
     <meta name="twitter:title" content="CaaS>">
     <meta name="twitter:description" content="Charting as a Service">
-    <meta name="twitter:image" content="/images/example.jpg">
+    <meta name="twitter:image" content="http://bigomega.github.io/caas/images/example.jpg">
     <!-- Google+ -->
     <meta itemprop="name" content="CaaS">
     <meta itemprop="description" content="Charting as a Service">
-    <meta itemprop="image" content="/images/example.jpg">
+    <meta itemprop="image" content="http://bigomega.github.io/caas/images/example.jpg">
 
 
     <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
