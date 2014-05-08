@@ -4,7 +4,7 @@
 
 Draw all kind of charts with a json or an endpoint that returns a json
 
-### JSON in mutiple formats
+##### JSON in mutiple formats
 - [x] Index and value 
 ```
     { '0':12, '2':23, '3':34, ... }
@@ -22,7 +22,7 @@ Draw all kind of charts with a json or an endpoint that returns a json
     { '0': {x:1, y:1, z:2}, 'doesnt_matter': {x:2, y:3, z:8}, 'q_34': {x:3, ... }}
 ```
 
-### Array in mutiple formats
+##### Array in mutiple formats
 - [x] Array of numbers 
 ```
     [ '0', 34, '51', ... ]
@@ -40,12 +40,12 @@ Draw all kind of charts with a json or an endpoint that returns a json
     [ [0,2,11], [2,34,5], [3,65,30], ... ] --converts to-- [ {x:0, y:2, z:11}, {x:1, y:34, z:3}, ... ]
 ```
 
-### Using response from a url
+##### Using response from a url
 - [ ] GET request
 - [ ] POST request
 - [ ] Better UX to add parameters
 
-### Different chart types
+##### Different chart types
 - [x] Line chart
 - [ ] Area chart
 - [ ] Histogram
@@ -61,6 +61,7 @@ Draw all kind of charts with a json or an endpoint that returns a json
 - [ ] Contour diagram
 - [ ] 3D surface charts
 
+##### Other
 - [ ] Multiple entities of any chart (eg., two line charts)
 - [ ] Combination of mutiple charts (eg., a line and a bar graph)
 - [ ] Options within a chart (sharp and spline, grouped and stacked, surface and wireframe)
