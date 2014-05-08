@@ -15,9 +15,15 @@ input{
   margin-top: 50px;
   margin-bottom: 20px;
   text-align: center;
-  h1, h3{
-    font-family: 'Dancing Script', cursive;
-  }
+}
+h1, h3{
+  font-family: 'Dancing Script', cursive;
+}
+h2, h4, h5{
+  font-family: 'Josefin Sans', sans-serif;
+}
+input{
+  font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 #container{
   min-height: 600px;
@@ -26,5 +32,29 @@ input{
   background: url("../images/square-bg.png") repeat center center #fff;
   svg{
     height: 600px;
+  }
+}
+.notes{
+  h1{
+    padding-left: 20px;
+    margin-bottom: 20px;
+  }
+  .list-group-item{
+    ul{
+      list-style: none;
+      h5{
+        position: relative;
+        left: -23px;
+        .glyphicon{
+          margin-right: 7px;
+        }
+      }
+    }
+  }
+  .glyphicon-remove{
+    color: #df2e1b;
+  }
+  .glyphicon-ok{
+    color: #00bc8c;
   }
 }

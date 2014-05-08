@@ -20,9 +20,17 @@ input {
   margin-bottom: 20px;
   text-align: center;
 }
-.header h1,
-.header h3 {
+h1,
+h3 {
   font-family: 'Dancing Script', cursive;
+}
+h2,
+h4,
+h5 {
+  font-family: 'Josefin Sans', sans-serif;
+}
+input {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 #container {
   min-height: 600px;
@@ -33,4 +41,24 @@ input {
 }
 #container svg {
   height: 600px;
+}
+.notes h1 {
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+.notes .list-group-item ul {
+  list-style: none;
+}
+.notes .list-group-item ul h5 {
+  position: relative;
+  left: -23px;
+}
+.notes .list-group-item ul h5 .glyphicon {
+  margin-right: 7px;
+}
+.notes .glyphicon-remove {
+  color: #df2e1b;
+}
+.notes .glyphicon-ok {
+  color: #00bc8c;
 }

@@ -5,7 +5,7 @@ $(function(){
     var val;
     try{ val = eval(url);} catch(e){};
     try{ val = JSON.parse(url);} catch(e){};
-    try{ val = JSON.parse(url.replace(/([a-zA-Z0-9][^:^,^\}]*)(?=\s*:)/g, '"$1"')); } catch(e){};
+    try{ val = JSON.parse(url.replace(/([a-zA-Z0-9_][^:^,^\}]*)(?=\s*:)/g, '"$1"')); } catch(e){};
     if(val){
       if(Object.prototype.toString.call(val) === '[object Object]'){
         if(val[Object.keys(val)[0]].x && val[Object.keys(val)[0]].y){
