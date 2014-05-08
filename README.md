@@ -10,11 +10,11 @@ Draw all kind of charts with a json or an endpoint that returns a json
             { '0':12, '2':23, '3':34, ... }
         ```
  * + Unquoted json
-        ```javascript
+        ```JavaScript
                 { 0:34, 1q: 53, 24: 97, ... }
         ```
  * + X and Y
-        ```javascript
+        ```js
                 { '0': {x:1, y:1}, 'doesnt_matter': {x:2, y:3}, 'q_34': {x:3, ... }}
         ```
  * + X and Y and Z
