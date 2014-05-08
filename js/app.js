@@ -54,12 +54,10 @@ $(function(){
         ;
 
       chart.xAxis
-        .axisLabel('X Axis')
         .tickFormat(d3.format(',r'))
         ;
 
       chart.yAxis
-        .axisLabel('Y Axis')
         .tickFormat(d3.format(',r'))
         ;
 
