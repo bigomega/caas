@@ -34,7 +34,7 @@ $(function(){
     var options = [{
       values: val,
       key: 'Wave 1',
-      color: '#ff7f0e',
+      color: '#7777ff',
       area: true
     }];
     // var val = eval(url);
@@ -50,6 +50,7 @@ $(function(){
       var chart = nv.models.lineChart()
         .useInteractiveGuideline(true)
         .showLegend(true)
+        .interpolate('monotone')
         ;
 
       chart.xAxis
